@@ -6,7 +6,7 @@ test('Practice Test 1', async({page}) =>{
     await expect(page).toHaveTitle('Google');
     console.log("Ending Practice Test1...")
 })
-test('Practice Test 2 @smoke', async({page}) =>{
+test('Practice Test 2', async({page}) =>{
     console.log("Starting Practice Test 2...");
     await page.goto('https://www.google.com/');
     console.log(page.url());
